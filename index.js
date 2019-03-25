@@ -9,14 +9,9 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
 }
 
-function destructivelyRemoveLastKitten()', function() {
-  it('removes the last kitten from the kittens array', function() {
-    window.kittens = ['Milo', 'Otis', 'Garfield'];
-    destructivelyRemoveLastKitten()
-
-    expect(window.kittens).toEqual(["Milo", "Otis"])
-  })
-})
+function destructivelyRemoveLastKitten() {
+    kittens.pop();
+}
 
 function destructivelyRemoveFirstKitten()', function() {
   it('removes the First kitten from the kittens array', function() {
